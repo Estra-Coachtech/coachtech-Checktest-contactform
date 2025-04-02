@@ -121,7 +121,7 @@ class ContactController extends Controller
             });
         }
 
-        if (!empty($request->gender)) {
+        if (!empty($request->gender) && $request->gender != 4) {
             $query->where('gender', '=', $request->gender);
         }
 
