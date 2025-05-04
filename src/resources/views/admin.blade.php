@@ -25,6 +25,7 @@
           <option value="1" @if( request('gender')==1 ) selected @endif>男性</option>
           <option value="2" @if( request('gender')==2 ) selected @endif>女性</option>
           <option value="3" @if( request('gender')==3 ) selected @endif>その他</option>
+          <option value="4" @if( request('gender')==4 ) selected @endif>全て</option>
         </select>
       </div>
       <div class="search-form__category">
